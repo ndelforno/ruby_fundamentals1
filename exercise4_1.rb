@@ -1,6 +1,6 @@
 puts "Enter a number"
-user_number = gets.chomp
-if user_number.to_i > 100
+user_number = gets.chomp.to_i
+if user_number > 100
   puts "that's a big number"
 else
   puts "why not dream a little bigger"
